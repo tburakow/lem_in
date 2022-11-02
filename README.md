@@ -22,4 +22,14 @@ make
 
 run the executable with a .map -file of your choosing, for example:
 ```
-./lem-in < 
+./lem-in < augment0.map
+```
+
+The output will first show the number of ants, the rooms and the connections between the rooms, and (in the case of the augment0.map) a visual representation of the map.
+
+the room after ## start is the starting position of the ants.
+
+The room after ## end is the end (sink).
+
+The next lines represent the moves made by the ants. The number before the dash is the identifier of the ant, and whatever comess after is the name of the room it moved into.
+
