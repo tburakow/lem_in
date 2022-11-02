@@ -20,3 +20,6 @@ Make the executable:
 make
 ```
 
+run the executable with a .map -file of your choosing, for example:
+```
+./lem-in < 
